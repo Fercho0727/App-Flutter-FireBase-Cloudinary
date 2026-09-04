@@ -5,7 +5,9 @@ Aplicación móvil desarrollada para 3Cocinando, una empresa dedicada al servici
 
 El sistema cuenta con autenticación mediante Firebase Authentication y almacenamiento de información mediante Cloud Firestore, incorporando un sistema de roles para controlar las funcionalidades disponibles para cada tipo de usuario.
 
+
 ✨ Características principales
+
 🔐 Autenticación y usuarios
 Inicio de sesión mediante correo electrónico y contraseña.
 Gestión de usuarios mediante Firebase Authentication.
@@ -15,6 +17,7 @@ Los nuevos usuarios creados por un administrador reciben automáticamente el rol
 Gestión del estado de los usuarios: habilitar y deshabilitar cuentas.
 Modificación y eliminación de usuarios.
 Control de acceso según el rol del usuario.
+
 👨‍💼 Administradores
 
 Los administradores cuentan con acceso completo a las funcionalidades de gestión:
@@ -27,6 +30,7 @@ Eliminar usuarios.
 Crear y administrar recetas.
 Editar recetas existentes.
 Eliminar recetas.
+
 👨‍🍳 Empleados
 
 Los empleados cuentan con acceso a las funcionalidades necesarias para consultar el recetario:
@@ -44,11 +48,14 @@ El proyecto utiliza servicios de Firebase para gestionar la información y auten
 Firebase Authentication: autenticación y gestión de cuentas.
 Cloud Firestore: almacenamiento de usuarios, recetas y demás información de la aplicación.
 Firebase Security Rules: control de acceso a los datos almacenados en Firestore.
+
 🛠️ Tecnologías utilizadas
-Flutter
-Dart
-Firebase Authentication
-Cloud Firestore
+-Flutter
+-Dart
+-Firebase Authentication
+-Cloud Firestore
+-Cloudinary
+
 🎯 Objetivo del proyecto
 
 El objetivo de la aplicación es proporcionar a 3Cocinando una herramienta centralizada para la gestión y consulta de recetas, facilitando el acceso a la información culinaria del equipo y proporcionando diferentes niveles de acceso de acuerdo con las responsabilidades de cada usuario.
